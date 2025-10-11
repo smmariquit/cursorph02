@@ -116,9 +116,9 @@ const ChatInterface = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="flex flex-col h-screen bg-gray-50">
       {/* Header */}
-      <div className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 p-4">
+      <div className="bg-white shadow-sm border-b border-gray-200 p-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
@@ -127,15 +127,15 @@ const ChatInterface = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-xl font-semibold text-gray-900 dark:text-white">Voice Chat AI</h1>
-              <p className="text-sm text-gray-500 dark:text-gray-400">Powered by Gemini AI</p>
+              <h1 className="text-xl font-semibold text-gray-900">Voice Chat AI</h1>
+              <p className="text-sm text-gray-500">Powered by Gemini AI</p>
             </div>
           </div>
           <div className="flex items-center space-x-2">
             {isSpeaking && (
               <button
                 onClick={stopSpeaking}
-                className="p-2 text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-full transition-colors"
+                className="p-2 text-red-500 hover:bg-red-50 rounded-full transition-colors"
                 title="Stop speaking"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -145,7 +145,7 @@ const ChatInterface = () => {
             )}
             <button
               onClick={clearChat}
-              className="p-2 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-full transition-colors"
+              className="p-2 text-gray-500 hover:bg-gray-100 rounded-full transition-colors"
               title="Clear chat"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -167,12 +167,12 @@ const ChatInterface = () => {
               className={`max-w-xs lg:max-w-md px-4 py-2 rounded-lg ${
                 message.type === 'user'
                   ? 'bg-blue-500 text-white'
-                  : 'bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700'
+                  : 'bg-white text-gray-900 border border-gray-200'
               }`}
             >
               <p className="text-sm">{message.text}</p>
               <p className={`text-xs mt-1 ${
-                message.type === 'user' ? 'text-blue-100' : 'text-gray-500 dark:text-gray-400'
+                message.type === 'user' ? 'text-blue-100' : 'text-gray-500'
               }`}>
                 {message.timestamp.toLocaleTimeString()}
               </p>
@@ -182,14 +182,14 @@ const ChatInterface = () => {
         
         {isProcessing && (
           <div className="flex justify-start">
-            <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2">
+            <div className="bg-white border border-gray-200 rounded-lg px-4 py-2">
               <div className="flex items-center space-x-2">
                 <div className="flex space-x-1">
                   <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce"></div>
                   <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
                   <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
                 </div>
-                <span className="text-sm text-gray-500 dark:text-gray-400">AI is thinking...</span>
+                <span className="text-sm text-gray-500">AI is thinking...</span>
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@ const ChatInterface = () => {
       </div>
 
       {/* Voice Controls */}
-      <div className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 p-6">
+      <div className="bg-white border-t border-gray-200 p-6">
         <div className="flex flex-col items-center space-y-4">
           <VoiceRecorder
             onTranscript={handleTranscript}
@@ -210,7 +210,7 @@ const ChatInterface = () => {
           
           {isRecording && (
             <div className="text-center">
-              <div className="flex items-center justify-center space-x-2 text-blue-600 dark:text-blue-400">
+              <div className="flex items-center justify-center space-x-2 text-blue-600">
                 <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
                 <span className="text-sm font-medium">Recording...</span>
               </div>

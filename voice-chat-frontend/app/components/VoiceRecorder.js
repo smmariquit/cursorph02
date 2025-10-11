@@ -118,8 +118,8 @@ const VoiceRecorder = ({ onTranscript, onRecordingChange, isRecording, setIsReco
 
   if (!isSupported) {
     return (
-      <div className="text-center p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg">
-        <p className="text-red-600 dark:text-red-400">
+      <div className="text-center p-4 bg-red-50 border border-red-200 rounded-lg">
+        <p className="text-red-600">
           Speech recognition is not supported in this browser. Please use Chrome, Edge, or Safari.
         </p>
       </div>
@@ -129,7 +129,7 @@ const VoiceRecorder = ({ onTranscript, onRecordingChange, isRecording, setIsReco
   return (
     <div className="flex flex-col items-center space-y-4">
       {error && (
-        <div className="text-red-600 dark:text-red-400 text-sm text-center bg-red-50 dark:bg-red-900/20 p-2 rounded">
+        <div className="text-red-600 text-sm text-center bg-red-50 p-2 rounded">
           {error}
         </div>
       )}
@@ -161,11 +161,11 @@ const VoiceRecorder = ({ onTranscript, onRecordingChange, isRecording, setIsReco
       </button>
       
       <div className="text-center">
-        <p className="text-sm text-gray-600 dark:text-gray-400">
+        <p className="text-sm text-gray-600">
           {isRecording ? 'Listening... Speak now' : 'Click to start voice recording'}
         </p>
         {isRecording && (
-          <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+          <p className="text-xs text-gray-500 mt-1">
             Will stop automatically after 3 seconds of silence
           </p>
         )}
