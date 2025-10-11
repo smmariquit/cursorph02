@@ -1,25 +1,51 @@
-# Cebu Pacific Senior Phone — Landing Page (Next.js)
+# Cebu Pacific Senior Phone — Landing Page (Next.js App Router)
 
-This is a small Next.js JavaScript scaffold for a mobile-friendly landing page aimed at seniors (very large fonts, simple UI).
+This is a complete Next.js application using App Router for a mobile-friendly landing page aimed at seniors (very large fonts, simple UI).
 
-Features
-- Big, readable fonts and large buttons
-- Voice recording using RecordRTC (mic permission required)
-- Camera module (video stream) for future AR integration
-- Five placeholder microservice links
+## Features
+- **Big, readable fonts and large buttons** - Perfect for seniors
+- **Voice recording using native MediaRecorder API** (mic permission required)
+- **Camera module** (video stream) for future AR integration
+- **Five accessibility-focused microservices:**
+  1. **Navigation Assistant** - Find gates, facilities, get directions
+  2. **Flight Info Reader** - Hear flight details clearly
+  3. **Emergency Helper** - Quick access to help and security
+  4. **Accessibility Services** - Wheelchair, vision, hearing support  
+  5. **Language Translator** - Translate text and speech
 
-Quick start
+## Project Structure
+```
+cursorph02/
+├── landing-page/           # Main Next.js App Router application
+│   ├── app/               # App Router pages
+│   │   ├── page.js        # Homepage/landing page
+│   │   ├── layout.js      # Root layout
+│   │   ├── navigation/    # Navigation Assistant service
+│   │   ├── flight-info/   # Flight Info Reader service
+│   │   ├── emergency/     # Emergency Helper service
+│   │   ├── accessibility/ # Accessibility Services
+│   │   └── translator/    # Language Translator service
+│   ├── components/        # Reusable React components
+│   └── styles/           # Global CSS styles
+└── package.json          # Root package with dev scripts
+```
 
-1. Install dependencies
+## Quick Start
 
+1. Install dependencies (from root directory)
 ```powershell
 npm install
 ```
 
 2. Run dev server
-
 ```powershell
 npm run dev
+```
+
+Or run directly from landing-page:
+```powershell
+cd landing-page
+npx next dev -p 3000
 ```
 
 Open http://localhost:3000 on a mobile device or desktop with responsive mode.
