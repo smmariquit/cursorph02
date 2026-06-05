@@ -59,3 +59,12 @@ Next steps you might want me to do:
 - Wire the voice recordings to a speech-to-text microservice
 - Replace placeholders with real microservice URLs
 - Add analytics and accessibility testing
+
+## 📊 Current State of the Code
+- **Tech Stack:** React, Next.js, Node.js/NPM
+- **Repository Size:** 96 tracked files
+- **Latest Update:** `f27d4dc chore: add stale issue and PR validators`
+
+
+---
+*☕ If you found this project useful, you can support my work at [kape.stimmie.dev](https://kape.stimmie.dev)!*
