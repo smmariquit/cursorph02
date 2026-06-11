@@ -1,3 +1,5 @@
+// landing-page/components/CameraModule.js
+
 'use client'
 
 import React, { useRef, useState } from 'react'

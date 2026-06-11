@@ -1,3 +1,5 @@
+// navigation/app/data/airportData.js
+
 // Mock airport data for the concierge app
 export const airportData = {
   restaurants: [

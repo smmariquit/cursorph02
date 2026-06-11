@@ -1,3 +1,5 @@
+// voice-chat-frontend/app/components/VoiceRecorder.js
+
 'use client';
 
 import { useState, useEffect, useRef } from 'react';

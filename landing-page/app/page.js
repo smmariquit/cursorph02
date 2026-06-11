@@ -1,3 +1,5 @@
+// landing-page/app/page.js
+
 import MicroserviceLinks from '../components/MicroserviceLinks'
 import CameraModule from '../components/CameraModule'
 import VoiceRecorder from '../components/VoiceRecorder'

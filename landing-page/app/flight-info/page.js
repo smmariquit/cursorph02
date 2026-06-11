@@ -1,3 +1,5 @@
+// landing-page/app/flight-info/page.js
+
 import Head from 'next/head'
 import Link from 'next/link'
 

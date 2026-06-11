@@ -1,3 +1,5 @@
+// navigation/app/components/Chatbot.js
+
 'use client';
 
 import { useState, useRef, useEffect } from 'react';

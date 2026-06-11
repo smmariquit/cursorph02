@@ -1,3 +1,5 @@
+// voice-chat-backend/app/api/chat/route.js
+
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { NextResponse } from 'next/server';
 
