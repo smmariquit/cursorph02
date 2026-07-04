@@ -16,14 +16,14 @@ PORT=3000
 ## Getting Started
 
 1. Install dependencies:
-   ```bash
+ ```bash
    pnpm install
    ```
 
 2. Set up your environment variables (see above)
 
 3. Start the development server:
-   ```bash
+ ```bash
    pnpm dev
    ```
 
@@ -32,8 +32,8 @@ PORT=3000
 ## API Endpoints
 
 - `POST /api/chat` - Send a message to Gemini AI
-  - Body: `{ "message": "your message here" }`
-  - Response: `{ "response": "AI response", "timestamp": "ISO string" }`
+ - Body: `{ "message": "your message here" }`
+ - Response: `{ "response": "AI response", "timestamp": "ISO string" }`
 
 ## Features
 
