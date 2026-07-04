@@ -17,15 +17,15 @@ PORT=3000
 
 1. Install dependencies:
  ```bash
-   pnpm install
-   ```
+ pnpm install
+ ```
 
 2. Set up your environment variables (see above)
 
 3. Start the development server:
  ```bash
-   pnpm dev
-   ```
+ pnpm dev
+ ```
 
 4. The API will be available at `http://localhost:3000`
 

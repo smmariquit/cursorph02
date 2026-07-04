@@ -4,13 +4,13 @@
 
 1. Install dependencies:
  ```bash
-   pnpm install
-   ```
+ pnpm install
+ ```
 
 2. Start the development server:
  ```bash
-   pnpm dev
-   ```
+ pnpm dev
+ ```
 
 3. Open [http://localhost:3001](http://localhost:3001) in your browser
 

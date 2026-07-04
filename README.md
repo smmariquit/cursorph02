@@ -16,18 +16,18 @@ This is a complete Next.js application using App Router for a mobile-friendly la
 ## Project Structure
 ```
 cursorph02/
-├── landing-page/           # Main Next.js App Router application
-│   ├── app/               # App Router pages
-│   │   ├── page.js        # Homepage/landing page
-│   │   ├── layout.js      # Root layout
-│   │   ├── navigation/    # Navigation Assistant service
-│   │   ├── flight-info/   # Flight Info Reader service
-│   │   ├── emergency/     # Emergency Helper service
-│   │   ├── accessibility/ # Accessibility Services
-│   │   └── translator/    # Language Translator service
-│   ├── components/        # Reusable React components
-│   └── styles/           # Global CSS styles
-└── package.json          # Root package with dev scripts
+├── landing-page/ # Main Next.js App Router application
+│ ├── app/ # App Router pages
+│ │ ├── page.js # Homepage/landing page
+│ │ ├── layout.js # Root layout
+│ │ ├── navigation/ # Navigation Assistant service
+│ │ ├── flight-info/ # Flight Info Reader service
+│ │ ├── emergency/ # Emergency Helper service
+│ │ ├── accessibility/ # Accessibility Services
+│ │ └── translator/ # Language Translator service
+│ ├── components/ # Reusable React components
+│ └── styles/ # Global CSS styles
+└── package.json # Root package with dev scripts
 ```
 
 ## Quick Start
