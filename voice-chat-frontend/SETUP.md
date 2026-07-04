@@ -3,12 +3,12 @@
 ## Getting Started
 
 1. Install dependencies:
-   ```bash
+ ```bash
    pnpm install
    ```
 
 2. Start the development server:
-   ```bash
+ ```bash
    pnpm dev
    ```
 
