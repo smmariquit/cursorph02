@@ -35,6 +35,9 @@ body{
 .service-title{font-size:20px;font-weight:bold;margin-bottom:6px}
 .service-desc{font-size:16px;opacity:0.9}
 .footer{margin-top:28px;font-size:18px;color:var(--muted);text-align:center}
+.footer-legal{font-size:14px;display:block;margin-top:8px}
+.footer-legal a{color:var(--muted);text-decoration:none}
+.footer-legal a:hover{text-decoration:underline}
 
 /* Service Page Styles */
 .back-link{display:inline-block;font-size:18px;color:var(--accent);text-decoration:none;margin-bottom:16px}

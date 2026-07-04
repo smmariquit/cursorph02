@@ -1,5 +1,6 @@
 // landing-page/app/page.js
 
+import Link from 'next/link'
 import MicroserviceLinks from '../components/MicroserviceLinks'
 import CameraModule from '../components/CameraModule'
 import VoiceRecorder from '../components/VoiceRecorder'
@@ -33,7 +34,15 @@ export default function Home() {
 
         <MicroserviceLinks />
 
-        <footer className="footer">Rent for 500 PHP — Cebu Pacific in your pocket.</footer>
+        <footer className="footer">
+          Rent for 500 PHP — Cebu Pacific in your pocket.
+          <span className="footer-legal">
+            {' '}
+            <Link href="/privacy">Privacy</Link>
+            {' · '}
+            <Link href="/terms">Terms</Link>
+          </span>
+        </footer>
       </main>
     </div>
   )
