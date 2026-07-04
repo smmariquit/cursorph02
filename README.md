@@ -1,4 +1,4 @@
-# Cebu Pacific Senior Phone — Landing Page (Next.js App Router)
+# Cebu Pacific Senior Phone: Landing Page (Next.js App Router)
 
 This is a complete Next.js application using App Router for a mobile-friendly landing page aimed at seniors (very large fonts, simple UI).
 
@@ -7,11 +7,11 @@ This is a complete Next.js application using App Router for a mobile-friendly la
 - **Voice recording using native MediaRecorder API** (mic permission required)
 - **Camera module** (video stream) for future AR integration
 - **Five accessibility-focused microservices:**
-  1. **Navigation Assistant** - Find gates, facilities, get directions
-  2. **Flight Info Reader** - Hear flight details clearly
-  3. **Emergency Helper** - Quick access to help and security
-  4. **Accessibility Services** - Wheelchair, vision, hearing support  
-  5. **Language Translator** - Translate text and speech
+ 1. **Navigation Assistant** - Find gates, facilities, get directions
+ 2. **Flight Info Reader** - Hear flight details clearly
+ 3. **Emergency Helper** - Quick access to help and security
+ 4. **Accessibility Services** - Wheelchair, vision, hearing support 
+ 5. **Language Translator** - Translate text and speech
 
 ## Project Structure
 ```
@@ -64,7 +64,6 @@ Next steps you might want me to do:
 - **Tech Stack:** React, Next.js, Node.js/NPM
 - **Repository Size:** 96 tracked files
 - **Latest Update:** `f27d4dc chore: add stale issue and PR validators`
-
 
 ---
 *☕ If you found this project useful, you can support my work at [kape.stimmie.dev](https://kape.stimmie.dev)!*
