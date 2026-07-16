@@ -45,12 +45,11 @@ body {
   cursor: pointer;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(220, 38, 38, 0.3);
-  transition: all 0.3s ease;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 
 .slider::-webkit-slider-thumb:hover {
   background: #b91c1c;
-  transform: scale(1.1);
   box-shadow: 0 6px 12px rgba(220, 38, 38, 0.4);
 }
 
@@ -62,18 +61,12 @@ body {
   border-radius: 50%;
   border: none;
   box-shadow: 0 4px 8px rgba(220, 38, 38, 0.3);
-  transition: all 0.3s ease;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 
 .slider::-moz-range-thumb:hover {
   background: #b91c1c;
-  transform: scale(1.1);
   box-shadow: 0 6px 12px rgba(220, 38, 38, 0.4);
-}
-
-/* Smooth animations */
-* {
-  transition: all 0.3s ease;
 }
 
 /* Custom scrollbar */
