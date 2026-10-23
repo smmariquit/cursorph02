@@ -10,16 +10,16 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
-    "cors": "^2.8.5",
-    "next": "15.5.4",
+    "cors": "^2.8.6",
+    "next": "15.5.28",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.5.4",
-    "tailwindcss": "^4"
+    "@eslint/eslintrc": "^3.3.7",
+    "@tailwindcss/postcss": "^4.3.3",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "15.5.28",
+    "tailwindcss": "^4.3.3"
   }
 }
